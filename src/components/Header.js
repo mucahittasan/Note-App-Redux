@@ -18,7 +18,6 @@ const Header = () => {
         type="text"
         placeholder="Search..."
         className="bg-gray-200 placeholder:text-gray-600 w-1/3 h-8 rounded p-3 outline-none"
-
       />
     </form>
   );

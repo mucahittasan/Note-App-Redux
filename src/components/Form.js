@@ -3,6 +3,9 @@ import { addNote } from '../redux/notes/noteSlice';
 import { useDispatch } from 'react-redux'
 import { nanoid } from "@reduxjs/toolkit";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Form = () => {
 
   const dispatch = useDispatch();
@@ -25,6 +28,7 @@ const Form = () => {
       dispatch(addNote({ id: nanoid(), title, note, color }));
       setTitle('');
       setNote('');
+      toast.success("Note successfully added!");
     }
   };
 
@@ -35,6 +39,7 @@ const Form = () => {
 
   return (
     <form className="flex flex-col p-3">
+      <ToastContainer />
       <input
         className="mb-5 h-10 pl-3 placeholder:text-gray-500 outline-none rounded"
         type="text"
