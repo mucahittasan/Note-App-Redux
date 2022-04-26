@@ -1,7 +1,7 @@
 <h1 align="center">Note App with Redux</h1>
 
 <div align="center">
-  <a href="https://note-app-redux.vercel.app/" target="_blank">↪️ See it live!</a>
+  <a href="https://note-app-redux.vercel.app/" target="_blank">↪️ Demo</a>
   <br />
   <br />
 </div>
