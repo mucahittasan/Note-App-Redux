@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+<h1 align="center">Note App with Redux</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <a href="https://my-project2-steel.vercel.app/" target="_blank">↪️ See it live!</a>
+  <br />
+  <br />
+</div>
 
-## Available Scripts
+<div align="center">
+  <img width="900" src = 'https://user-images.githubusercontent.com/88967412/165399933-59b29313-4d91-4d24-a76f-3d5be1e79c06.gif' />
+</div>
 
-In the project directory, you can run:
+<h2> ✨ About The Project</h2>
 
-### `npm start`
+- <p>In this project, I tried to make an e-commerce site using the react library. When you first enter the site, a home page will welcome you and you can see all the products on this home page. If you want, you can filter the products by clicking one of the options in the header field. To add a desired product to the cart, you can press the add to cart button and send it to the cart. To see your products in the basket, you can click on the basket icon and see your products in the basket. You can increase or decrease the amount of products in the basket. You can confirm the items in your cart by clicking confirm cart.
+  </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- <p>I used React Js, Context Api, React Hooks and Scss technologies while doing this project.</p>
+- <p>Made responsive using media queries</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <h2> 📌 Build With</h2>
 
-### `npm test`
+- [ReactJs](https://tr.reactjs.org/)
+- [Redux](https://redux-toolkit.js.org/)
+- [Tailwindcss](https://tailwindcss.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <h2> 🔍 Setup</h2>
 
-### `npm run build`
+  - Clone the project with **"git clone"**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  - After cloning the project, by following these steps, you will fulfill the project requirements.
+    - install with npm:
+    ```npm
+    npm i
+    ```
+    - install with yarn:
+    ```yarn
+    yarn add
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- after downloading the requirements, you can run:
+  - Run with npm:
+  ```npm
+  npm start
+  ```
+  - Run with yarn:
+  ```yarn
+  yarn start
+  ```
+- After than, you have to run tailwindcss:
+  - Run with npm:
+  ```npm
+  npm run watch
+  ```
+  - Run with yarn:
+  ```yarn
+  yarn run watch
+  ```
+  <h2> 📧 Contact </h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mucahit Tasan - [Linkedin](https://www.linkedin.com/in/mucahittasan) - [Instagram](https://www.instagram.com/tasanmucahit) - [E-mail](mailto:mucahittasan0@gmail.com)
