@@ -9,16 +9,23 @@ const NotesList = () => {
 
   const dispatch = useDispatch();
 
-  const items = useSelector((state) => state.notes.items);
+  const filteredItems = useSelector((state) => {
+    if (state.notes.search === "") {
+      return state.notes.items;
+    }
+    console.log(state.notes.search)
+    return state.notes.items.filter((item) => item.title.toLowerCase().includes(state.notes.search));
+  });
 
   const deleteNote = (item) => {
     dispatch(removeNote(item));
   }
 
+
   return (
     <div className="max-w-7xl mx-auto mt-20">
       <ul className="grid grid-cols-4 gap-12 ">
-        {items.map((item) => (
+        {filteredItems.map((item) => (
           <li key={item.id} className={`w-80 ${item.color} rounded h-64 max-h-full overflow-y-auto`}>
             <h3
               className={`text-xl sticky top-0 ${item.color} flex p-3 justify-between items-center border-b-2 border-b-gray-50 font-bold pb-2`}>
