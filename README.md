@@ -18,25 +18,29 @@
 - <p>I used React Js, Context Api, React Hooks and Scss technologies while doing this project.</p>
 - <p>Made responsive using media queries</p>
 
-  <h2> 📌 Build With</h2>
+<h2> 📌 Build With</h2>
 
 - [ReactJs](https://tr.reactjs.org/)
 - [Redux](https://redux-toolkit.js.org/)
 - [Tailwindcss](https://tailwindcss.com/)
 
-  <h2> 🔍 Setup</h2>
+<h2> 🔍 Setup</h2>
 
-  - Clone the project with **"git clone"**
+- Clone the project with **"git clone"**
 
-  - After cloning the project, by following these steps, you will fulfill the project requirements.
-    - install with npm:
-    ```npm
-    npm i
-    ```
-    - install with yarn:
-    ```yarn
-    yarn add
-    ```
+- After cloning the project, by following these steps, you will fulfill the project requirements.
+
+  - install with npm:
+
+  ```npm
+  npm i
+  ```
+
+  - install with yarn:
+
+  ```yarn
+  yarn add
+  ```
 
 - after downloading the requirements, you can run:
   - Run with npm:
