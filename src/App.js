@@ -1,7 +1,11 @@
+import NotesArea from "./components/NotesArea";
+import NoteSide from "./components/NoteSide";
+
 const App = () => {
   return (
-    <div>
-      <h1>Merhaba Dunya!</h1>
+    <div className="flex">
+      <NoteSide />
+      <NotesArea />
     </div>
   );
 };
