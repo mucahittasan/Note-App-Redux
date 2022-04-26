@@ -15,10 +15,6 @@
 - In this project, I made a note-taking application using redux with React.
 - The purpose of the application is to ensure that people who use this application can easily keep the notes they want. 
 - When we first open our application, we enter the title of our note and our note from the sidebar that appears, then we determine the color of this note and finally we add our note by pressing the add note button. In order to find a note we want in our notes, we can write the title of the note we want to find in the search input and find it.
-  
-
-- <p>I used React Js, Context Api, React Hooks and Scss technologies while doing this project.</p>
-- <p>Made responsive using media queries</p>
 
 <h2> 📌 Build With</h2>
 
