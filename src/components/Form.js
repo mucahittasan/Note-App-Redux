@@ -14,8 +14,6 @@ const Form = () => {
   const [note, setNote] = useState('');
   const [color, setColor] = useState('');
 
-  console.log(color);
-
   const handleClick = (e) => {
     e.preventDefault();
     if (note === '') {
