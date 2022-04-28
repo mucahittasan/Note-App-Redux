@@ -13,7 +13,7 @@ const NotesList = () => {
     if (state.notes.search === "") {
       return state.notes.items;
     }
-    console.log(state.notes.search)
+    
     return state.notes.items.filter((item) => item.title.toLowerCase().includes(state.notes.search));
   });
 
