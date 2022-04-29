@@ -1,4 +1,4 @@
-<h1 align="center">Note App with Redux</h1>
+<h1 align="center"> Note App with Redux</h1>
 
 <div align="center">
   <a href="https://note-app-redux.vercel.app/" target="_blank">↪️ Demo</a>
