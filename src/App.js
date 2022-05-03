@@ -3,10 +3,10 @@ import NoteSide from "./components/NoteSide";
 
 const App = () => {
   return (
-    <div className="flex">
+    <div className="flex"> 
       <NoteSide />
       <NotesArea />
-    </div>
+    </div> 
   );
 };
 
