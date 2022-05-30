@@ -1,10 +1,12 @@
 <h1 align="center"> Note App with Redux</h1>
 
 <div align="center">
+  
   <a href="https://note-app-redux.vercel.app/" target="_blank">↪️ Demo</a>
   <br />
   <br />
-</div>
+  
+</div> 
 
 <div align="center">
   <img width="900" src = 'https://user-images.githubusercontent.com/88967412/165399933-59b29313-4d91-4d24-a76f-3d5be1e79c06.gif' />
